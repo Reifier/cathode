@@ -1,8 +1,7 @@
 /* An unsafe primitive to quickly translate a binary byte into a decimal */
+#include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <string.h>
-#include <stdlib.h>
 
 int main () {
 
