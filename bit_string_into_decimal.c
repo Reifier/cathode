@@ -17,10 +17,7 @@ int main () {
     position = i + 1;
     number = bytes[i] - '0';
     value = value + pow(2, 7 - i) * number;
-//    printf("This is the current value: %d\n", value);
     number = bytes[i] - '0';
-//    printf("This is the current number: %d\n", i);
-//    printf("This is the string that I've got from you: %d\n", number);
   }
 
   printf("This is the decimal value: %d\n", value);
