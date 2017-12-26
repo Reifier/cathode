@@ -1,4 +1,4 @@
-FILES = display_memory_location_of_integer.c
+FILES = display_memory_location_of_integer.c bit_string_into_decimal.c
 compile_everything: $(FILES)
 	@for filename in $(FILES); \
 	do \
